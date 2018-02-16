@@ -26,7 +26,7 @@ namespace Infra.Logs
                 Action = context.ActionDescriptor.DisplayName,
                 TimeStamp = DateTime.Now
             };
-
+            
             _logger.LogInformation(1, data.ToString());
             _logger.LogTrace("Passei por aqui");
         }

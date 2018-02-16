@@ -37,6 +37,7 @@ namespace Site
 
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+            
 
             #endregion
 
